@@ -159,3 +159,45 @@
 // else {
 //     alert("Please enter negative value")
 // }
+
+//          (Task 3)
+
+//          (Task 4)
+// var dice = Math.random() * 6;
+// var diceValue = Math.ceil(dice);
+// var diceResult = 2;
+// document.write("Random dice value: " + "  " + diceValue + "<br>"  + "<br>")
+
+// var dice = Math.random() * 6;
+// var diceValue = Math.ceil(dice);
+// var diceResult = 2;
+// document.write("Random dice value: " + "  " + diceValue + "<br>")
+
+//          (Task 5)
+// var coin = Math.random() * 2;
+// var coinValue = Math.ceil(coin);
+// if(coinValue === 1){
+// document.write(coinValue + "<br>"  + "random coin value: Heads" + "<br>")
+// }
+// else if(coinValue === 2){
+// document.write(coinValue + "<br>"  + "random coin value: Tails")
+// }
+
+//          (Task 6)
+// var randomNumGen = Math.random() * 100;
+// var randomNum = Math.ceil(randomNumGen);
+// document.write("random number between 1 and 100: " + randomNum);
+
+//          (Task 7)
+// var weight = prompt("Enter your weight","50 kgs");
+// document.write("The weight of the user is " + weight);
+
+//          (Task 8)
+// var secretNum = 7;
+// var guess = +prompt("Enter a number between 1 to 10");
+// if(secretNum === guess){
+//     alert("Whoohoo! You guess the right number")
+// }
+// else{
+//     alert("Try Again")
+// }
