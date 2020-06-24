@@ -77,3 +77,43 @@
 // var num = 33.36;                       Skipped
 
        // (Task 13)
+
+
+       // (Task 14)
+// var items = ["cake","apple pie","cookie","chips","patties"];
+// var search = prompt("Welcome to our bakery,Search item","cake");
+// search = search.toLowerCase();
+
+// for(i = 0; i <= items.length; i++){
+//        if(search === items[i]){
+//               document.write(items[i] + " is available at index " + i + " in our bakery")
+//        }
+//        else{
+//               document.write("We're sorry. " + search + " is not available in our bakery")
+//        }
+//        break
+// }
+
+       // (Task 15) skipped 
+
+
+        // (Task 16)
+// var uni = "University of Karachi"
+// const words = uni.split('');
+// for(i = 0; i < uni.length; i++){
+//        document.write(words[i] + "<br>");
+// }
+
+//         // (Task 17)
+// var input = prompt("Your Country Name","Pakistan");
+// document.write("User input: " + input + "<br>")
+// // var lastChar = input.length
+// for(i = 0; i < input.length; i++){
+//        if(input[i] === "n"){
+//               document.write("Index of 'n': " + i)
+//        }
+// }
+
+//         // (Task 18)
+// var para = "The quick brown fox jumps over the lazy dog";
+// para = para.toLowerCase();
