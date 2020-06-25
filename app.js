@@ -241,3 +241,35 @@
 // }
 
 //          (Task 6)
+// var a = new Date();
+// document.write("Current Date" + a + "<br>");
+
+// var b = a.getTime();
+// document.write("Elapsed milliseconds since January 1 , 1970: "  + b + "<br>");
+
+// var c = b/(1000*60)
+// document.write("Elapsed minutes since January 1 , 1970: "  + c + "<br>");
+
+//          (Task 7)
+// var date = new Date();
+// var hours = date.getHours();
+// if(hours <= 12){
+//     document.write("It's AM")
+// }
+// else{
+//     document.write("It's PM")
+// }
+
+//          (Task 8)
+// var lastDate = new Date("Dec 31,2020");
+// document.write(lastDate);  
+
+//          (Task 9)
+var ramadanDate = new Date("June 18,2015");
+var ramadanTime = ramadanDate.getTime();
+
+var currentDate = new Date();
+var dateTime = currentDate.getTime();
+
+var timePassed = ramadanTime - dateTime
+console.log(timePassed)
