@@ -201,3 +201,43 @@
 // else{
 //     alert("Try Again")
 // }
+
+//           (chapter 26 to 30)
+
+//          (Task 1)
+// var date = new Date();
+// document.write(date)
+
+//          (Task 2)
+// var date = new Date();
+// months = ["January","Febuary","March","April","May","June","July","August","September","October","November","December"]
+// currentMonth = date.getMonth();
+// alert("Current Month: " + months[currentMonth])
+
+//          (Task 3)
+// var date = new Date();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var day = date.getDay();
+// alert("Today is " + dayNames[day])
+
+//          (Task 4)
+// var date = new Date();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var day = date.getDay();
+// var currentDay = dayNames[day];
+// alert("Today is " + dayNames[day])
+// if(currentDay === ("Sun"||"Sat")){
+//     document.write("It's Fun Day");
+// }
+
+//          (Task 5)
+// var date = new Date();
+// var dateNum = date.getDate();
+// if(dateNum < 16){
+//     document.write("First 15 Days of The Month");
+// }
+// else{
+//     document.write("Last 15 Days of The Month");
+// }
+
+//          (Task 6)
