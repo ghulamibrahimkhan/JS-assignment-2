@@ -265,11 +265,62 @@
 // document.write(lastDate);  
 
 //          (Task 9)
-var ramadanDate = new Date("June 18,2015");
-var ramadanTime = ramadanDate.getTime();
+// var ramadanDate = new Date("June 18,2015");
+// var ramadanTime = ramadanDate.getTime();
 
-var currentDate = new Date();
-var dateTime = currentDate.getTime();
+// var currentDate = new Date();
+// var dateTime = currentDate.getTime();
+  
+// var timePassed = dateTime - ramadanTime
+// console.log(timePassed)
+// var actualDaysPassed = Math.round(timePassed/(1000*60*60*24));
+// console.log(actualDaysPassed + " days have passed since 1st Ramadan,2015")
 
-var timePassed = ramadanTime - dateTime
-console.log(timePassed)
+        //  (Task 10)
+// var referenceDate = new Date("Dec 5,2015");
+// var referenceTime = referenceDate.getTime();
+
+// var currentDate = new Date();
+// var currentTime = currentDate.getTime();
+
+// secPassed = currentTime - referenceTime;
+// secPassed = Math.round(secPassed/1000)
+// document.write("On reference date " + referenceDate +"<br>")
+// document.write(secPassed + " second has pased since the beginning of 2015")
+
+        //  (Task 11)
+        //  (Task 12)
+
+        //  (Task 13)
+// var dob = new Date("Feb 11,2000");
+// var dobTime = dob.getTime();
+
+// var cDate = new Date();
+// var cTime = cDate.getTime();
+
+// var difBw = cDate - dobTime;
+// var actAge = Math.floor(difBw/(1000*60*60*30*24*12))
+// document.write(actAge)
+
+        //  (Task 14)
+// var cusName = "Ghulam Ibrahim Khan";
+
+// var months = ["January","Febuary","March","April","May","June","July","August","September","October","November","December"];
+// var date = new Date;
+// var cMonth = date.getMonth();
+
+// var noOfUnits = 410;
+// var chrPerUnits = 16;
+// var tAmount = noOfUnits * chrPerUnits;
+
+// var lateChr = 350;
+// var latePay = lateChr + tAmount;
+
+// document.write("Customer Name: " + cusName + "<br>")
+// document.write("Month: " + cMonth  + "<br>")
+// document.write("Number of Units: " + noOfUnits + "<br>")
+// document.write("Charges per Unit:" + chrPerUnits + "<br>"  +"<br>")
+
+// document.write("Net Amount Payable (within Due Date): " + tAmount  +"<br>")
+// document.write("Late payment surcharge: " + lateChr  +"<br>")
+// document.write("Gross Amount Payable(after Due Date): " + latePay)
