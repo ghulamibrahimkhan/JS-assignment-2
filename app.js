@@ -289,8 +289,25 @@
 // document.write(secPassed + " second has pased since the beginning of 2015")
 
         //  (Task 11)
-        //  (Task 12)
+// var currDate = new Date();
+// var hour = currDate.getHours();
 
+// var date2 = new Date;
+// // var lastHour = date2.getHours(Hour - 1)
+// date2.setHours(hour - 1)
+
+// document.write(currDate + "<br>");
+// document.write(date2);
+ 
+        //  (Task 12)
+var date = new Date();
+var year = date.getFullYear();
+document.write("current date: " + date + "<br>");
+
+var dateP = new Date();
+dateP.setYear(year - 100)
+document.write("100 yesrs back, it was  : " + dateP);
+  
         //  (Task 13)
 // var dob = new Date("Feb 11,2000");
 // var dobTime = dob.getTime();
