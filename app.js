@@ -270,13 +270,13 @@
 
 // var currentDate = new Date();
 // var dateTime = currentDate.getTime();
-  
+
 // var timePassed = dateTime - ramadanTime
 // console.log(timePassed)
 // var actualDaysPassed = Math.round(timePassed/(1000*60*60*24));
 // console.log(actualDaysPassed + " days have passed since 1st Ramadan,2015")
 
-        //  (Task 10)
+//  (Task 10)
 // var referenceDate = new Date("Dec 5,2015");
 // var referenceTime = referenceDate.getTime();
 
@@ -288,7 +288,7 @@
 // document.write("On reference date " + referenceDate +"<br>")
 // document.write(secPassed + " second has pased since the beginning of 2015")
 
-        //  (Task 11)
+//  (Task 11)
 // var currDate = new Date();
 // var hour = currDate.getHours();
 
@@ -298,17 +298,17 @@
 
 // document.write(currDate + "<br>");
 // document.write(date2);
- 
-        //  (Task 12)
-var date = new Date();
-var year = date.getFullYear();
-document.write("current date: " + date + "<br>");
 
-var dateP = new Date();
-dateP.setYear(year - 100)
-document.write("100 yesrs back, it was  : " + dateP);
-  
-        //  (Task 13)
+//  (Task 12)
+// var date = new Date();
+// var year = date.getFullYear();
+// document.write("current date: " + date + "<br>");
+
+// var dateP = new Date();
+// dateP.setYear(year - 100)
+// document.write("100 yesrs back, it was  : " + dateP);
+
+//  (Task 13)
 // var dob = new Date("Feb 11,2000");
 // var dobTime = dob.getTime();
 
@@ -319,7 +319,7 @@ document.write("100 yesrs back, it was  : " + dateP);
 // var actAge = Math.floor(difBw/(1000*60*60*30*24*12))
 // document.write(actAge)
 
-        //  (Task 14)
+//  (Task 14)
 // var cusName = "Ghulam Ibrahim Khan";
 
 // var months = ["January","Febuary","March","April","May","June","July","August","September","October","November","December"];
@@ -341,3 +341,42 @@ document.write("100 yesrs back, it was  : " + dateP);
 // document.write("Net Amount Payable (within Due Date): " + tAmount  +"<br>")
 // document.write("Late payment surcharge: " + lateChr  +"<br>")
 // document.write("Gross Amount Payable(after Due Date): " + latePay)
+
+//           (chapter 35 to 38)
+
+//  (Task 1)
+// function date(){
+//         document.write(new Date());
+// }
+// date();
+
+//  (Task 2)
+// function userName(){
+//         var a = prompt("Enter Your First Name")
+//         var b = prompt("Enter Your Last Name")
+//         document.write(a + " " +b)
+// }
+// userName();
+
+//  (Task 3)
+// function sum(){
+//         var a = 3;
+//         var b = 4;
+//         var sum = a + b;
+//         document.write(sum)
+// }
+// sum()
+
+//  (Task 4)
+function sum() {
+        var numa = +prompt("Enter 1st #");
+        var numAOpe = +prompt("Enter 1st operator");
+
+        var numb = +prompt("Enter 2nd #");
+        var numBOpe = +prompt("Enter 2nd Operator");
+
+        var numc = +prompt("Enter 3rd #");
+        var sum = numa + numAOpe + numb + numBOpe + numc
+        document.write(sum)
+}
+sum()
