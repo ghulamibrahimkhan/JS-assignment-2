@@ -368,15 +368,37 @@
 // sum()
 
 //  (Task 4)
-function sum() {
-        var numa = +prompt("Enter 1st #");
-        var numAOpe = +prompt("Enter 1st operator");
+// function sum() {
+//         var a = +prompt("Enter 1st #");
 
-        var numb = +prompt("Enter 2nd #");
-        var numBOpe = +prompt("Enter 2nd Operator");
+//         var operator = prompt("Enter operator","+");
 
-        var numc = +prompt("Enter 3rd #");
-        var sum = numa + numAOpe + numb + numBOpe + numc
-        document.write(sum)
-}
-sum()
+//         var b = +prompt("Enter 2nd #")
+//         if(operator === "+"){
+//                 document.write(a + b)
+//         }
+//         else if(operator === "-"){
+//                 document.write(a - b)
+//         }
+//         else if(operator === "*"){
+//                 document.write(a * b)
+//         }
+//         else if(operator === "/"){
+//                 document.write(a / b)
+//         }
+//         else if(operator === "%"){
+//                 document.write(a % b)
+//         }
+//         else{document.write("something went wrong")}
+// }
+// sum()
+
+//  (Task 5) 
+// var a = +prompt("Enter Your Number")
+
+// for(i = 1; i < a; i = a + i -1){
+//         b = a * a;
+//         document.write(b);
+// }
+
+//  (Task 6)
