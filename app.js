@@ -416,3 +416,36 @@
 // }
 // }
 // counting();
+
+// //  (Task 8)
+// function hypo() {
+//         function calculation() {
+//                 var base = +prompt("Enter base");
+//                 var Perpen = +prompt("Enter perpendicular");
+//         }
+// }
+
+// //  (Task 9)
+
+// //  (Task 10)
+
+// function palindrom() {
+//         var a = prompt("Check Word");
+//         var a = a.toLowerCase();
+
+//         var b = "";
+//         for (var i = a.length - 1; i >= 0; i--){
+//                 b += a[i]
+//         }
+
+//         if(a === b){
+//                 document.write("This is Pallindrom Word")
+//         }
+//         else{
+//                 document.write("This is'nt Pallindrom Word");
+//         }Pallindrom
+// }
+
+// palindrom();
+
+// //  (Task 11)
