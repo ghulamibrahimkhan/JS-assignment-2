@@ -394,11 +394,25 @@
 // sum()
 
 //  (Task 5) 
-// var a = +prompt("Enter Your Number")
+// function square() {
+//         var a = +prompt("Enter Your Number")
 
-// for(i = 1; i < a; i = a + i -1){
-//         b = a * a;
-//         document.write(b);
+//         for (i = 1; i < a; i = a + i - 1) {
+//                 b = a * a;
+//                 document.write(b);
+//         }
 // }
+// square();
 
-//  (Task 6)
+//  (Task 6)     skipped
+
+//  (Task 7)
+// function counting(){ 
+// var f = prompt("Where to start","Enter Number" )
+// var l = prompt("Where to end","Enter Number" )
+
+// for(f ; f <= l; f++){
+//         document.write(f + "<br>");
+// }
+// }
+// counting();
