@@ -449,3 +449,20 @@
 // palindrom();
 
 // //  (Task 11)
+
+// function upperWords(cap){
+//     var array = cap.split(" ");
+//     for(i = 0; i < array.length; i++){
+//       var strSplit = array[i].split("");
+//       strSplit[0] = strSplit[0].toUpperCase();
+//       array[i] = strSplit.join("");
+//     }
+//     cap = array.join(" ");
+//     document.write(cap);
+// }
+// var sentense= prompt("Enter a sentense");
+// upperWords(sentense);
+
+// //  (Task 12)            ---Skipped***
+// //  (Task 13)            ---Skipped***
+// //  (Task 14)            ---Skipped***
